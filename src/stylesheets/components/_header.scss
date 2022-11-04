@@ -1,0 +1,151 @@
+@import './button';
+  
+.header {
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    img{
+      width: 45px;
+      border-radius: 50%;
+      &:hover {
+        width: 60px;
+      height: 60px;
+      }
+    }
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: block;
+    p{
+      margin: 2px;
+      font-size: 18px;
+      // color: $primary-color;
+      color: white;
+      }
+      a{
+        margin: 2px;
+        font-size: 20px;
+        // color: $primary-color;
+        color: white;
+        &:hover {
+          font-size: 24px;
+          color: $primary-color;
+        }
+        }
+  }
+  
+ 
+
+
+
+
+
+  .store-info-header {
+    max-width: $content-max-width;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      img {
+        height: 40px;
+        width: 40px;
+        &:hover {
+            width: 250px;
+        height: 148px;
+          }
+      }
+    }
+
+    .store-link-container {
+      display: flex;
+
+      li {
+        margin-left: 16px;
+        a {
+          img {
+            width: 150px;
+            height: 48px;
+            &:hover {
+                width: 250px;
+            height: 148px;
+              }
+          }
+        }
+      }
+    }
+  }
+}
+
+.header {
+  .nav {
+    background: rgb(227, 215, 215);
+  }
+  .nav-container {
+    max-width: $content-max-width;
+    padding: 32px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-bar-btns {
+    display: flex;
+    li {
+      a {
+        @include button;
+      }
+    }
+  }
+
+  .nav-bar-btns {
+    display: flex;
+    p{
+      font-size: 40px;
+      color: $primary-color;
+      font-family: 'Anton', sans-serif;
+    }
+
+  }
+
+  .nav-bar-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    li {
+      transform: skew(-15deg);
+      border-right: 2px solid $primary-color;
+      padding-right: 8px;
+      padding-left: 12px;
+      a {
+        font-size: 20px;
+        color: $primary-color;
+      }
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .nav-bar-btns,
+  .nav-bar-links {
+    li {
+      margin-right: 16px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        font-weight: 400;
+
+        &:hover {
+          color: black;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
