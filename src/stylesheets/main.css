@@ -15,70 +15,8 @@ body::-webkit-scrollbar {
   display: none; /*for Chrome, safari and opera */
 }
 
-.header .social-media {
-  display: flex;
-  justify-content: space-between;
-}
-.header .social-media img {
-  width: 45px;
-  border-radius: 50%;
-}
-.header .social-media img:hover {
-  width: 60px;
-  height: 60px;
-}
-.header .contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: block;
-}
-.header .contact-info p {
-  margin: 2px;
-  font-size: 18px;
-  color: white;
-}
-.header .contact-info a {
-  margin: 2px;
-  font-size: 20px;
-  color: white;
-}
-.header .contact-info a:hover {
-  font-size: 24px;
-  color: #7d1ced;
-}
-.header .store-info-header {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 16px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header .store-info-header .logo img {
-  height: 40px;
-  width: 40px;
-}
-.header .store-info-header .logo img:hover {
-  width: 250px;
-  height: 148px;
-}
-.header .store-info-header .store-link-container {
-  display: flex;
-}
-.header .store-info-header .store-link-container li {
-  margin-left: 16px;
-}
-.header .store-info-header .store-link-container li a img {
-  width: 150px;
-  height: 48px;
-}
-.header .store-info-header .store-link-container li a img:hover {
-  width: 250px;
-  height: 148px;
-}
-
 .header .nav {
-  background: rgb(227, 215, 215);
+  background: rgb(231, 211, 211);
 }
 .header .nav-container {
   max-width: 1180px;
@@ -141,22 +79,23 @@ body::-webkit-scrollbar {
   font-size: 25px;
 }
 
-.footer .store-info-header {
+.footer {
   max-width: 1180px;
   margin: 0 auto;
   padding: 16px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aliceblue;
+  background-color: rgb(213, 212, 226);
+  color: bisque;
 }
 .footer .social-media {
-  display: flex;
-  justify-content: space-between;
+  color: rgb(11, 11, 9);
 }
 .footer .social-media img {
   width: 45px;
   border-radius: 50%;
+  word-spacing: 50px;
 }
 .footer .social-media img:hover {
   width: 60px;
@@ -166,16 +105,17 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: block;
+  color: secondary-color;
 }
 .footer .contact-info p {
   margin: 2px;
   font-size: 18px;
-  color: rgb(20, 18, 18);
+  color: rgb(11, 11, 9);
 }
 .footer .contact-info a {
   margin: 2px;
   font-size: 20px;
-  color: rgb(14, 13, 13);
+  color: rgb(11, 11, 9);
 }
 .footer .contact-info a:hover {
   font-size: 24px;
@@ -185,9 +125,14 @@ body::-webkit-scrollbar {
   max-width: 1180px;
   margin: 0 auto;
   padding: 16px 0;
+  color: rgb(11, 11, 9);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+body {
+  background: rgb(50, 54, 8);
 }
 
 .main {
@@ -201,7 +146,7 @@ body::-webkit-scrollbar {
   align-items: block;
 }
 .main p {
-  color: white;
+  color: rgb(11, 11, 9);
   text-align: block;
 }
 .main img {
@@ -212,55 +157,34 @@ body::-webkit-scrollbar {
   color: #7d1ced;
   text-align: left;
 }
-
-.date {
+.main .date {
   text-shadow: 1ch;
   color: rgb(223, 66, 66);
 }
 
-body {
-  background: black;
+.table img {
+  width: 80px;
+  border-radius: 10%;
+}
+.table img:hover {
+  width: 150px;
 }
 
-.jumbotron {
-  overflow: hidden;
-}
-.jumbotron .landing-page-container img {
-  display: flex;
-  margin: 64px auto;
-  width: 10vw;
-  height: 7vh;
-  min-width: 1460px;
-}
-
-.find-your-store {
+.place-holder {
   max-width: 1180px;
   display: flex;
   justify-content: left;
   margin: 64px auto;
   padding-bottom: 48px;
-  border-bottom: 4px solid black;
 }
-.find-your-store .store-card {
+.place-holder .resume-card {
   width: 45%;
-  color: black;
-}
-.find-your-store .store-card h2 {
-  text-align: center;
-  padding: 16px 0;
-}
-.find-your-store .store-card .locate-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: black;
   margin: 8px;
 }
-.find-your-store .store-card .locate-card h2 {
-  padding-top: 16px;
-  color: #7d1ced;
-}
-.find-your-store .store-card .locate-card a {
+.place-holder .resume-card a {
   background: #7d1ced;
   color: rgb(240, 232, 232);
   padding: 8px 24px;
@@ -271,7 +195,7 @@ body {
   text-decoration: none;
   margin-bottom: 16px;
 }
-.find-your-store .store-card .locate-card a:hover {
+.place-holder .resume-card a:hover {
   background: white;
   color: #7d1ced;
   text-decoration: underline;

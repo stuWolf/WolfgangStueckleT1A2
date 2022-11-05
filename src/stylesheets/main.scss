@@ -4,62 +4,76 @@
  // components
  @import './components/header';
  @import './components/footer';
- @import './components/main';
  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&display=swap');
 
  // All pages basic styles
 
 body {
-   background: black;
-
+   background: $background-color;
  }
  
  
 
  // home pages
  
- .jumbotron {
-   overflow: hidden;
-   .landing-page-container {
-       img {
-        display: flex;
-        margin: 64px auto;
-         width: 10vw;
-         height: 7vh;
-         min-width: 1460px;
-       }
-     }
-   }
- 
- .find-your-store {
+ .main {
+
+  padding: 50px 0;
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: block;
+  
+  p {
+    color: $secondary-color;
+    text-align: block;
+    }
+    img{
+      width: 100px;
+      border-radius: 50%;
+    }
+
+  h1{
+    color: $primary-color;
+    text-align: left;
+  }
+  .date {
+    text-shadow: 1ch;
+    color: rgb(223, 66, 66);
+
+  }
+
+}
+
+ .table{
+  
+  img{
+    width: 80px;
+    border-radius: 10%;
+    &:hover {
+      width: 150px;
+    }
+  }
+
+ }
+ .place-holder {
    max-width: $content-max-width;
    display: flex;
    justify-content: left;
    margin: 64px auto;
    padding-bottom: 48px;
-   border-bottom: 4px solid black;
+
  
-   .store-card {
-     width: 45%;
-    //  background: $primary-color;
-     color: black;
- 
-     h2 {
-       text-align: center;
-       padding: 16px 0;
-     }
- 
-     .locate-card {
+     .resume-card {
+      width: 45%;
        display: flex;
        flex-direction: column;
        align-items: center;
-       background: black;
        margin: 8px;
-       h2 {
-         padding-top: 16px;
-         color: $primary-color;
-       }
- 
+  
        a {
          @include button;
          text-decoration: none;
@@ -73,4 +87,3 @@ body {
        }
      }
    }
- }

@@ -1,21 +1,22 @@
 @import './button';
   
 .footer {
-  .store-info-header {
-    max-width: $content-max-width;
-    margin: 0 auto;
-    padding: 16px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aliceblue;
-  }
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $footer-color;
+  //color: $footer-color;
+  color:bisque;
+
   .social-media {
-    display: flex;
-    justify-content: space-between;
+    color:$secondary-color;
     img{
       width: 45px;
-      border-radius: 50%;
+        border-radius: 50%;
+      word-spacing: 50px;
       &:hover {
         width: 60px;
       height: 60px;
@@ -27,17 +28,18 @@
     display: flex;
     flex-direction: column;
     align-items: block;
+    color:secondary-color;
     p{
       margin: 2px;
       font-size: 18px;
-      // color: $primary-color;
-      color: rgb(20, 18, 18);
+       color: $secondary-color;
+     
       }
       a{
         margin: 2px;
         font-size: 20px;
-        // color: $primary-color;
-        color: rgb(14, 13, 13);
+        color: $secondary-color;
+        
         &:hover {
           font-size: 24px;
           color: $primary-color;
@@ -45,15 +47,15 @@
         }
   }
   
-
   .copy-right {
     max-width: $content-max-width;
     margin: 0 auto;
     padding: 16px 0;
+    color: $secondary-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // background-color: rgb(57, 122, 179);
+    
   }
 } 
 
