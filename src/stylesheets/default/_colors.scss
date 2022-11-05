@@ -3,3 +3,8 @@ $secondary-color: rgb(11, 11, 9);
 $background-color: rgb(231, 211,200);
 $header-color: rgb(231, 211, 211);
 $footer-color:rgb(231, 211, 211);
+$bg-gradient: linear-gradient(
+  180deg,
+  rgba(0, 0, 0, 0.7) 0%,
+  rgba(0, 0, 0, 0.3) 100%
+);

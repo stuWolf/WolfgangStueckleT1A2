@@ -143,12 +143,11 @@ body::-webkit-scrollbar {
 }
 
 body {
-  background: rgb(231, 211, 200);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 .home {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/Matterhorn.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/Matterhorn.jpg");
   padding: 50px 0;
   max-width: 1180px;
   margin: 0 auto;
@@ -201,10 +200,6 @@ body {
 .main h2 {
   margin: 10px;
 }
-.main .date {
-  text-shadow: 1ch;
-  color: rgb(223, 66, 66);
-}
 
 .table img {
   margin: 5px;
@@ -213,6 +208,10 @@ body {
 }
 .table img:hover {
   width: 200px;
+}
+.table .date {
+  text-shadow: 1ch;
+  color: rgb(223, 66, 66);
 }
 
 .projects {

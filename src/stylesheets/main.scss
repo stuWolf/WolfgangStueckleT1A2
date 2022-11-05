@@ -10,7 +10,7 @@
 
 body {
 
-   background: $background-color;
+   //background: $background-color;
    background-image: $bg-gradient;
 //        url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
  }
@@ -91,11 +91,7 @@ body {
    h2{
     margin: 10px;
    }
-  .date {
-    text-shadow: 1ch;
-    color: rgb(223, 66, 66);
-
-  }
+  
  
  }
 
@@ -108,6 +104,11 @@ body {
     &:hover {
       width: 200px;
     }
+  }
+  .date {
+    text-shadow: 1ch;
+    color: rgb(223, 66, 66);
+
   }
 
  }
