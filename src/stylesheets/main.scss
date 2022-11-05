@@ -131,11 +131,11 @@ body {
 
  .place-holder {
    max-width: $content-max-width;
-   min-height: 100px;
+   min-height: 50px;
    display: flex;
    justify-content: left;
    margin: 64px auto;
-   padding-bottom: 48px;
+   padding-bottom: 4px;
 
  
      .resume-card {
