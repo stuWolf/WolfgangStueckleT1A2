@@ -4,6 +4,7 @@
 .header {
   .nav {
   background:$header-color;
+  
 
   }
   .nav-container {
@@ -15,27 +16,33 @@
   }
 
   .nav-bar-btns {
+    margin-left: 10px;
     display: flex;
     li {
       a {
         @include button;
       }
     }
-  }
-
-  .nav-bar-btns {
-    display: flex;
     p{
       font-size: 40px;
       color: $primary-color;
       font-family: 'Anton', sans-serif;
     }
-
   }
+
+  // .nav-bar-btns {
+  //   display: flex;
+  //   p{
+  //     font-size: 40px;
+  //     color: $primary-color;
+  //     font-family: 'Anton', sans-serif;
+  //   }
+
+  // }
 
   .nav-bar-links {
     display: flex;
-    flex: 1;
+    flex: 4;
     justify-content: flex-end;
     li {
       transform: skew(-15deg);

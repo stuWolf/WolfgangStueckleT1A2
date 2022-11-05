@@ -5,20 +5,26 @@
  @import './components/header';
  @import './components/footer';
  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&display=swap');
-
+@import './components/bgpicture';
  // All pages basic styles
 
 body {
+
    background: $background-color;
+   background-image: $bg-gradient;
+//        url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
  }
  
  
 
  // home pages
  
- .main {
+ .home {
 
-  padding: 50px 0;
+ //background-image: $bg-gradient, $bg-picture;
+ //url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
+ background-image: $bg-gradient, url('../images/Matterhorn.jpg');
+ padding: 50px 0;
   max-width: $content-max-width;
   margin: 0 auto;
   padding: 16px 0;
@@ -28,39 +34,103 @@ body {
   align-items: block;
   
   p {
-    color: $secondary-color;
+    color: rgb(205, 192, 205);
     text-align: block;
+    margin: 10px;
     }
     img{
-      width: 100px;
+      margin: 10px;
+      width: 105px;
       border-radius: 50%;
     }
 
   h1{
+    margin: 10px;
     color: $primary-color;
     text-align: left;
   }
+  // .date {
+  //   text-shadow: 1ch;
+  //   color: rgb(223, 66, 66);
+
+  // }
+
+}
+
+.main{
+
+  //background-image: $bg-gradient,
+  //url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
+ 
+   max-width: $content-max-width;
+   margin: 0 auto;
+   padding: 16px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: block;
+   
+   p {
+     color: $secondary-color;
+     text-align: block;
+      margin: 10px;
+    //  max-width: 50%;
+     }
+     img{
+      margin-left: 10px;
+       width: 100px;
+       border-radius: 50%;
+     }
+ 
+   h1{
+    margin-left: 10px;
+
+     color: $primary-color;
+     text-align: left;
+   }
+   h2{
+    margin: 10px;
+   }
   .date {
     text-shadow: 1ch;
     color: rgb(223, 66, 66);
 
   }
-
-}
+ 
+ }
 
  .table{
   
   img{
-    width: 80px;
+    margin: 5px;
+    width: 100px;
     border-radius: 10%;
     &:hover {
-      width: 150px;
+      width: 200px;
     }
   }
 
  }
+
+.projects{
+  max-width: $content-max-width;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: left;
+   margin: 10px;
+   //padding-bottom: 48px;
+  img{
+   
+    min-width: 50%;
+    border-radius: 5%;
+  }
+}
+
+
  .place-holder {
    max-width: $content-max-width;
+   min-height: 100px;
    display: flex;
    justify-content: left;
    margin: 64px auto;

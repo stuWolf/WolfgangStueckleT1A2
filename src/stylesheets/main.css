@@ -26,39 +26,37 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 .header .nav-bar-btns {
+  margin-left: 10px;
   display: flex;
 }
 .header .nav-bar-btns li a {
-  background: #7d1ced;
+  background: #7812ec;
   color: rgb(240, 232, 232);
   padding: 8px 24px;
   border-radius: 8px;
   font-size: 32px;
   font-style: italic;
-  box-shadow: 2px 2px 2px #7d1ced;
-}
-.header .nav-bar-btns {
-  display: flex;
+  box-shadow: 2px 2px 2px #7812ec;
 }
 .header .nav-bar-btns p {
   font-size: 40px;
-  color: #7d1ced;
+  color: #7812ec;
   font-family: "Anton", sans-serif;
 }
 .header .nav-bar-links {
   display: flex;
-  flex: 1;
+  flex: 4;
   justify-content: flex-end;
 }
 .header .nav-bar-links li {
   transform: skew(-15deg);
-  border-right: 2px solid #7d1ced;
+  border-right: 2px solid #7812ec;
   padding-right: 8px;
   padding-left: 12px;
 }
 .header .nav-bar-links li a {
   font-size: 20px;
-  color: #7d1ced;
+  color: #7812ec;
 }
 .header .nav-bar-links li:last-child {
   border-right: none;
@@ -86,13 +84,14 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(213, 212, 226);
+  background-color: rgb(231, 211, 211);
   color: bisque;
 }
 .footer .social-media {
   color: rgb(11, 11, 9);
 }
 .footer .social-media img {
+  margin-left: 5px;
   width: 45px;
   border-radius: 50%;
   word-spacing: 50px;
@@ -119,7 +118,7 @@ body::-webkit-scrollbar {
 }
 .footer .contact-info a:hover {
   font-size: 24px;
-  color: #7d1ced;
+  color: #7812ec;
 }
 .footer .copy-right {
   max-width: 1180px;
@@ -131,12 +130,51 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+}
+
 body {
-  background: rgb(50, 54, 8);
+  background: rgb(231, 211, 200);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.home {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%), url("../images/Matterhorn.jpg");
+  padding: 50px 0;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: block;
+}
+.home p {
+  color: rgb(205, 192, 205);
+  text-align: block;
+  margin: 10px;
+}
+.home img {
+  margin: 10px;
+  width: 105px;
+  border-radius: 50%;
+}
+.home h1 {
+  margin: 10px;
+  color: #7812ec;
+  text-align: left;
 }
 
 .main {
-  padding: 50px 0;
   max-width: 1180px;
   margin: 0 auto;
   padding: 16px 0;
@@ -148,14 +186,20 @@ body {
 .main p {
   color: rgb(11, 11, 9);
   text-align: block;
+  margin: 10px;
 }
 .main img {
+  margin-left: 10px;
   width: 100px;
   border-radius: 50%;
 }
 .main h1 {
-  color: #7d1ced;
+  margin-left: 10px;
+  color: #7812ec;
   text-align: left;
+}
+.main h2 {
+  margin: 10px;
 }
 .main .date {
   text-shadow: 1ch;
@@ -163,15 +207,29 @@ body {
 }
 
 .table img {
-  width: 80px;
+  margin: 5px;
+  width: 100px;
   border-radius: 10%;
 }
 .table img:hover {
-  width: 150px;
+  width: 200px;
+}
+
+.projects {
+  max-width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin: 10px;
+}
+.projects img {
+  min-width: 50%;
+  border-radius: 5%;
 }
 
 .place-holder {
   max-width: 1180px;
+  min-height: 100px;
   display: flex;
   justify-content: left;
   margin: 64px auto;
@@ -185,18 +243,18 @@ body {
   margin: 8px;
 }
 .place-holder .resume-card a {
-  background: #7d1ced;
+  background: #7812ec;
   color: rgb(240, 232, 232);
   padding: 8px 24px;
   border-radius: 8px;
   font-size: 32px;
   font-style: italic;
-  box-shadow: 2px 2px 2px #7d1ced;
+  box-shadow: 2px 2px 2px #7812ec;
   text-decoration: none;
   margin-bottom: 16px;
 }
 .place-holder .resume-card a:hover {
   background: white;
-  color: #7d1ced;
+  color: #7812ec;
   text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
