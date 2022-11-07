@@ -8,8 +8,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: $footer-color;
-  //color: $footer-color;
-  color:bisque;
+  color: $footer-color;
+  
 
   .social-media {
     color:$secondary-color;
@@ -17,7 +17,7 @@
       margin-left: 5px;
       width: 45px;
         border-radius: 50%;
-      word-spacing: 50px;
+      
       &:hover {
         width: 60px;
       height: 60px;

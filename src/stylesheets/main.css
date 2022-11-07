@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
 .header .nav-bar-btns {
   margin-left: 10px;
   display: flex;
+  flex: 1 150px;
 }
 .header .nav-bar-btns li a {
   background: #7812ec;
@@ -43,16 +44,25 @@ body::-webkit-scrollbar {
   color: #7812ec;
   font-family: "Anton", sans-serif;
 }
+.header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+@media screen and (min-width: 400px) and (max-width: 899px) {
+  .header .nav-bar {
+    flex-direction: column;
+  }
+}
 .header .nav-bar-links {
   display: flex;
-  flex: 4;
-  justify-content: flex-end;
+  flex-direction: row;
 }
 .header .nav-bar-links li {
   transform: skew(-15deg);
   border-right: 2px solid #7812ec;
-  padding-right: 8px;
-  padding-left: 12px;
+  padding-right: 5px;
+  padding-left: 8px;
 }
 .header .nav-bar-links li a {
   font-size: 20px;
@@ -85,7 +95,7 @@ body::-webkit-scrollbar {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(231, 211, 211);
-  color: bisque;
+  color: rgb(231, 211, 211);
 }
 .footer .social-media {
   color: rgb(11, 11, 9);
@@ -94,7 +104,6 @@ body::-webkit-scrollbar {
   margin-left: 5px;
   width: 45px;
   border-radius: 50%;
-  word-spacing: 50px;
 }
 .footer .social-media img:hover {
   width: 60px;
@@ -128,18 +137,6 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  background-size: cover;
-  background-position: center;
 }
 
 body {

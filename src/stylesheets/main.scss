@@ -10,19 +10,18 @@
 
 body {
 
-   //background: $background-color;
+   
    background-image: $bg-gradient;
-//        url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
+
  }
  
  
 
- // home pages
+ // Configuration for landing page
  
  .home {
 
- //background-image: $bg-gradient, $bg-picture;
- //url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
+ 
  background-image: $bg-gradient, url('../images/Matterhorn.jpg');
  padding: 50px 0;
   max-width: $content-max-width;
@@ -49,18 +48,14 @@ body {
     color: $primary-color;
     text-align: left;
   }
-  // .date {
-  //   text-shadow: 1ch;
-  //   color: rgb(223, 66, 66);
-
-  // }
+ 
 
 }
 
+// confogiration for sub pages
 .main{
 
-  //background-image: $bg-gradient,
-  //url(https://images.unsplash.com/photo-1617478755490-e21232a5eeaf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzU1NjM5NA&ixlib=rb-1.2.1&q=75&w=1920);
+  
  
    max-width: $content-max-width;
    margin: 0 auto;
@@ -74,7 +69,7 @@ body {
      color: $secondary-color;
      text-align: block;
       margin: 10px;
-    //  max-width: 50%;
+   
      }
      img{
       margin-left: 10px;
@@ -94,7 +89,7 @@ body {
   
  
  }
-
+// for Blog table
  .table{
   
   img{
@@ -112,7 +107,7 @@ body {
   }
 
  }
-
+// for projects page
 .projects{
   max-width: $content-max-width;
    
@@ -120,14 +115,14 @@ body {
    flex-direction: row;
    justify-content: left;
    margin: 10px;
-   //padding-bottom: 48px;
+
   img{
    
     min-width: 50%;
     border-radius: 5%;
   }
 }
-
+//to manage position of resume button
 
  .place-holder {
    max-width: $content-max-width;

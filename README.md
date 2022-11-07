@@ -6,9 +6,9 @@
 
 ## Installation
 
-git clone git@github.com:wst/WolfgangStueckle.git
+ git clone git@github.com:stuWolf/WolfgangStueckleT1A2.git
 
-cd WolfgangStueckle
+cd WolfgangStueckleT1A2
 
 ## Website Idea
 
@@ -16,10 +16,7 @@ cd WolfgangStueckle
 
 [Dribble] (www.dribbble.com)
 
-```
-git clone git@github.com:achhetr/coder-pizza.git
-cd coder-pizza
-```
+
 
 ## Logo maker
 
@@ -28,14 +25,15 @@ cd coder-pizza
 ## Images
 
 [From Pixabay](https://pixabay.com/)
+[From bing](https://bing.com/)
 
 ## Website link
 
-[Wolf Electrical](https://www.wolfelectrical.com.au)
+[Wolfgang Stueckle portfolio](https://wolfstueckleportfolio.netlify.app/)
 
 ## Screenshot
 
-![Website home page](docs/screenshot.png)
+![Website home page](docs/Screenshot2.png)
 
 ## Tech stack
 
@@ -49,10 +47,21 @@ cd coder-pizza
 
 -Markdown
 
-## Sitemap and wireframes
-!["Figma view"](./docs/index_eireframe_mobile.png)
+## Components used
+-Button
 
-!["Browser view"](./docs/home-page.png)
+-footer
+
+-header
+
+-pictures
+
+
+## Sitemap and wireframes
+!["Figma view"](./docs/index_wireframe_mobile.png
+)
+
+!["Browser view"](./docs/Screenshot2.png)
 
 ## Target Audience
 
