@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: $footer-color;
-  color: $footer-color;
+
   
 
   .social-media {
@@ -29,11 +29,15 @@
     display: flex;
     flex-direction: column;
     align-items: block;
-    color:secondary-color;
+    color: $secondary-color;
+    
+    
     p{
       margin: 2px;
       font-size: 18px;
        color: $secondary-color;
+       
+       
      
       }
       a{
@@ -48,19 +52,30 @@
         }
   }
   
-  .copy-right {
-    max-width: $content-max-width;
-    margin: 0 auto;
-    padding: 16px 0;
-    color: $secondary-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
+ 
 } 
 
 
+.copy-right {
+  max-width: $content-max-width;
+  margin: 0 auto;
 
+  padding: 8px 0;
+  background-color: rgb(149, 144, 144);
+
+ display: flex;
+ align-items:center;
+ flex-direction: column;
+ 
+ p{
+ 
+  margin: 2px;
+  font-size: px;
+   color: rgb(245, 245, 245);
+   color: $primary-color;
+
+ }
+
+}
 
   
