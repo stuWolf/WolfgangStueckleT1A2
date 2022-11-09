@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
   flex-direction: row;
   justify-content: right;
 }
-@media screen and (min-width: 400px) and (max-width: 899px) {
+@media screen and (min-width: 350px) and (max-width: 840px) {
   .header .nav-bar {
     flex-direction: column;
   }

@@ -16,6 +16,8 @@ cd WolfgangStueckleT1A2
 
 [Dribble] (www.dribbble.com)
 
+[codepen] (www.codepen.io)
+
 
 
 ## Logo maker
@@ -39,7 +41,7 @@ cd WolfgangStueckleT1A2
 
 -HTML
 
--CSS
+-CSS/Sass
 
 -Wireframes
 
