@@ -35,7 +35,7 @@ cd WolfgangStueckleT1A2
 
 ## Screenshot
 
-![Website home page](docs/Screenshot2.png)
+![Website home page](./docs/Screenshot3.png)
 
 ## Tech stack
 
@@ -60,10 +60,10 @@ cd WolfgangStueckleT1A2
 
 
 ## Sitemap and wireframes
-!["Figma view"](./docs/index_wireframe_mobile.png
-)
+!["Figma view"](./docs/Wire%20frame%20I%20phone.png)
 
-!["Browser view"](./docs/Screenshot2.png)
+
+!["Browser view"](./docs/Screenshot3.png)
 
 ## Target Audience
 
