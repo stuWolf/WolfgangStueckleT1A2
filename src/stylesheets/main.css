@@ -31,17 +31,17 @@ body::-webkit-scrollbar {
   flex: 1 150px;
 }
 .header .nav-bar-btns li a {
-  background: #7812ec;
+  background: rgb(137, 163, 81);
   color: rgb(240, 232, 232);
   padding: 8px 24px;
   border-radius: 8px;
   font-size: 32px;
   font-style: italic;
-  box-shadow: 2px 2px 2px #7812ec;
+  box-shadow: 2px 2px 2px rgb(137, 163, 81);
 }
 .header .nav-bar-btns p {
   font-size: 40px;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
   font-family: "Anton", sans-serif;
 }
 .header .nav-bar {
@@ -60,13 +60,13 @@ body::-webkit-scrollbar {
 }
 .header .nav-bar-links li {
   transform: skew(-15deg);
-  border-right: 2px solid #7812ec;
+  border-right: 2px solid rgb(137, 163, 81);
   padding-right: 5px;
   padding-left: 8px;
 }
 .header .nav-bar-links li a {
   font-size: 20px;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
 }
 .header .nav-bar-links li:last-child {
   border-right: none;
@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
   background-color: rgb(231, 211, 211);
 }
 .footer .social-media {
-  color: rgb(11, 11, 9);
+  color: white;
 }
 .footer .social-media img {
   margin-left: 5px;
@@ -112,21 +112,21 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   align-items: block;
-  color: rgb(11, 11, 9);
+  color: white;
 }
 .footer .contact-info p {
   margin: 2px;
   font-size: 18px;
-  color: rgb(11, 11, 9);
+  color: white;
 }
 .footer .contact-info a {
   margin: 2px;
   font-size: 20px;
-  color: rgb(11, 11, 9);
+  color: white;
 }
 .footer .contact-info a:hover {
   font-size: 24px;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
 }
 
 .copy-right {
@@ -142,7 +142,7 @@ body::-webkit-scrollbar {
   margin: 2px;
   font-size: px;
   color: rgb(245, 245, 245);
-  color: #7812ec;
+  color: rgb(137, 163, 81);
 }
 
 body {
@@ -172,7 +172,7 @@ body {
 }
 .home h1 {
   margin: 10px;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
   text-align: left;
 }
 
@@ -186,7 +186,7 @@ body {
   align-items: block;
 }
 .main p {
-  color: rgb(11, 11, 9);
+  color: white;
   text-align: block;
   margin: 10px;
 }
@@ -197,7 +197,7 @@ body {
 }
 .main h1 {
   margin-left: 10px;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
   text-align: left;
 }
 .main h2 {
@@ -214,7 +214,7 @@ body {
 }
 .table .date {
   text-shadow: 1ch;
-  color: rgb(223, 66, 66);
+  color: rgb(11, 15, 13);
 }
 
 .projects {
@@ -245,18 +245,18 @@ body {
   margin: 8px;
 }
 .place-holder .resume-card a {
-  background: #7812ec;
+  background: rgb(137, 163, 81);
   color: rgb(240, 232, 232);
   padding: 8px 24px;
   border-radius: 8px;
   font-size: 32px;
   font-style: italic;
-  box-shadow: 2px 2px 2px #7812ec;
+  box-shadow: 2px 2px 2px rgb(137, 163, 81);
   text-decoration: none;
   margin-bottom: 16px;
 }
 .place-holder .resume-card a:hover {
   background: white;
-  color: #7812ec;
+  color: rgb(137, 163, 81);
   text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
